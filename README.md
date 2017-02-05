@@ -1,2 +1,2 @@
-# site_aw
+# site_so
 Site config for Freifunk Soonwald
