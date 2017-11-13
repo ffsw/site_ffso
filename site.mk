@@ -38,7 +38,8 @@ ifeq ($(GLUON_TARGET),ar71xx-generic)
 GLUON_SITE_PACKAGES += \
 	ffffm-additional-wifi-json-info \
 	ffsw-ssid-changer \
-	ffsw-wifi-quickfix
+	ffsw-wifi-quickfix \
+	ffffm-button-bind
 endif
 
 ifeq ($(GLUON_TARGET),ar71xx-tiny)
