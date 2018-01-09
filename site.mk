@@ -30,7 +30,8 @@ GLUON_SITE_PACKAGES := \
         ffsw-chkgw \
         ffsw-keyupl \
         iwinfo \
-        ffsw-banner
+        ffsw-banner \
+	iperf3
 
 
 # add offline ssid only if the target has wifi device
