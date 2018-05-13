@@ -2,7 +2,7 @@
 GLUON_SITE_PACKAGES := \
         gluon-mesh-batman-adv-15 \
         gluon-authorized-keys \
-        ffho-ebtables-net-rules \        
+        ffho-ebtables-net-rules \
         gluon-respondd\
         gluon-autoupdater \
         gluon-config-mode-autoupdater \
@@ -47,7 +47,7 @@ endif
 
 ifeq ($(GLUON_TARGET),ar71xx-tiny)
 GLUON_SITE_PACKAGES += \
-	#ffffm-additional-wifi-json-info \
+	ffffm-additional-wifi-json-info \
 	ffsw-ssid-changer \
 	ffsw-wifi-quickfix \
 	ffffm-button-bind
