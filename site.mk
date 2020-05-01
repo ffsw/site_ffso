@@ -149,9 +149,7 @@ GLUON_SITE_PACKAGES += \
         $(USB_PACKAGES_BASIC) \
         $(USB_PACKAGES_STORAGE) \
         $(USB_PACKAGES_NET) \
-        $(TOOLS_PACKAGES) \
-	r8169-firmware \
-	kmod-r8169
+        $(TOOLS_PACKAGES)
 endif
 
 ##wifi-button pacakge only on some ar71-models ############################
@@ -194,7 +192,7 @@ endif
 #                       opkg compare-versions "$1" '>>' "$2"
 #               to decide if a version is newer or not.
 
-DEFAULT_GLUON_RELEASE := ffso-v042a
+DEFAULT_GLUON_RELEASE := ffso-v042
 
 
 #       GLUON_RELEASE
